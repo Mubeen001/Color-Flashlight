@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/uppr"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:background="@color/red"
+        android:orientation="vertical"></RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lower"
+        android:layout_width="match_parent"
+        android:layout_height="282dp"
+        android:layout_below="@+id/uppr"
+        android:layout_marginTop="2dp"
+        android:background="@color/blue"
+        android:orientation="vertical"></RelativeLayout>
+
+    <Button
+        android:id="@+id/sound"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@mipmap/off" />
+
+</RelativeLayout>
